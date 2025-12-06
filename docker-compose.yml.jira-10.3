@@ -1,6 +1,6 @@
 services:
   jira:
-    image: atlassian/jira-software:11.3.0
+    image: atlassian/jira-software:10.3.14
     environment:
       - JVM_SUPPORT_RECOMMENDED_ARGS=-Dupm.plugin.upload.enabled=true -Datlassian.upm.signature.check.disabled=true
       - ATL_DB_DRIVER=org.postgresql.Driver
