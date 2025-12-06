@@ -56,7 +56,7 @@ tail -f /var/atlassian/application-data/jira/log/atlassian-jira.log
 ### Access Jira
 Once the container is running, open:
 
-http://localhost:8090
+http://localhost:8080
 
 You should see the Jira setup wizard or your restored instance.
 
